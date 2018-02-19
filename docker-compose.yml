@@ -11,6 +11,7 @@ services:
     env_file: .env
     volumes:
       - ./themes:/var/www/html/wp-content/themes
+      #- ./themes/mel-wp/public:/var/www/html/wp-content/themes
 
   db:
     image: mysql:latest
